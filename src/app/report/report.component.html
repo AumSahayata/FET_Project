@@ -1,0 +1,16 @@
+<body>
+    <div class="main-div">
+        <div class="container">
+            <form>
+                <h1 style="text-align: center;">Report your Problem</h1>
+                <input type="text" id="name" placeholder="Fullname" class="input-field"><br>
+                <input type="text" id="mobile-num" placeholder="Mobile Number" class="input-field"><br>
+                <input [(ngModel)]="sub" name="subject" id="subject" placeholder="Subject" class="input-field"><br>
+                <textarea id="desc" placeholder="Describe the problem" class="input-field"></textarea><br>
+                <textarea id="address" placeholder="Your Address" class="input-field"></textarea><br>
+
+                <button type="button" id="report" class="input-field" (click)="display()">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>

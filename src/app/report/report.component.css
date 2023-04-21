@@ -1,0 +1,44 @@
+body{
+    background-image: url(../../assets/report_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-div{
+    display: flex;
+    justify-content: start;
+}
+.container{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 550px;
+    height: 700px;
+    background-color: rgba(177, 176, 176, 0.474);
+    border-radius: 30px;
+}
+.input-field{
+    width: 80%;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.input-field:focus{
+    outline: none !important;
+    border: none;
+    box-shadow: 0 0 10px #6AABD2;;
+}
+h1{
+    font-size: 30px;
+    color: #385E72;
+}
+#report{
+    width: 85%;
+    margin-top: 30px;
+    background-color: #6AABD2;
+    color: #ffffff;
+}
+textarea{
+    height: 100px;
+}

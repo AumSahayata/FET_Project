@@ -1,0 +1,16 @@
+<body [style.backgroundImage]="'url('+imageurl+')'">
+    <div class="main-div">
+        <div>
+            <section class="box">
+                <form>
+                    <h1 style="text-align: center;">Login</h1>
+                    <input [(ngModel)]="mobValue" name="mobile_number" id="mobile-num" placeholder="Mobile Number" (change)="validateMobileNumber()" class="input-field" (focus)="changebg('../../assets/login_focus.png')" (blur)="changebg('../../assets/login_bg.png')"><br>
+
+                    <input [(ngModel)]="passValue" name="'password" type="password" id="password" placeholder="Password" class="input-field" (change)="validatePassword()" (ngModelChange)="passValue = $event" (focus)="changebg('../../assets/login_focus_pass.png')" (blur)="changebg('../../assets/login_bg.png')"><br>
+
+                    <button routerLink="dashboard" type="submit" id="login" class="input-field">Login</button>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>

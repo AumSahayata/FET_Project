@@ -1,0 +1,10 @@
+<body>
+    <div class="main-div">
+        <div class="container">
+            <h1 style="text-align: center;">Track status of your reports</h1>
+            <ol>
+                <li  *ngFor="let i of reportList;">{{i.subject}}   <p [ngClass]="i.status[0]=='T'? 'To-be-processed' : (i.status[0]=='W'? 'Working-on' : 'Resolved')">{{i.status}}</p></li>
+            </ol>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,44 @@
+body {
+    background-image: url(../../assets/track_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-div{
+    display: flex;
+    justify-content: start;
+}
+.container{
+    margin-top: 100px;
+    margin-right: 200px;
+}
+li{
+    background-color: #B7CFDC;
+    width: 80%;
+    margin: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+ol{
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #6aaad2b6;
+    width: 500px;
+}
+h1{
+    font-size: 35px;
+    color: #385E72;
+}
+
+.To-be-processed{
+    color: red;
+}
+.Working-on{
+    color: yellow;
+}
+.Resolved{
+    color: green;
+}
